@@ -2,14 +2,14 @@
   <content><![CDATA[
 def destroy
   status, ${0:resp} = service.destroy(options, params[:id])
-
   case status
   when :unauthorized then render json_service.responda_sem_permissao
-  when :error        then render json_service.responda_erros_do_objeto medidor
+  when :error        then render json_service.responda_erros_do_objeto ${0:resp}
   when :success      then head 204
   end
 end
 ]]></content>
-  <tabTrigger>controller_destroy</tabTrigger>
+  <tabTrigger>ctr_destroy</tabTrigger>
   <scope>source.ruby</scope>
+  <description>controller#destroy</description>
 </snippet>
