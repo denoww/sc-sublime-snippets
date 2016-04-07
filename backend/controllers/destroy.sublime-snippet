@@ -1,16 +1,15 @@
 <snippet>
   <content><![CDATA[
 def destroy
-  status, leitura = service.destroy(options, params[:medidor_id], params[:id])
+  status, ${0:resp} = service.destroy(options, params[:id])
 
   case status
   when :unauthorized then render json_service.responda_sem_permissao
   when :error        then render json_service.responda_erros_do_objeto medidor
   when :success      then head 204
-  when :more_recent  then render json_service.responda_erro('Somente a última leitura pode ser excluída')
   end
 end
 ]]></content>
-  <tabTrigger>service_destroy</tabTrigger>
+  <tabTrigger>controller_destroy</tabTrigger>
   <scope>source.ruby</scope>
 </snippet>
