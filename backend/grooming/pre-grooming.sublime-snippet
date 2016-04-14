@@ -1,0 +1,10 @@
+<snippet>
+  <scope>source.ruby</scope> -->
+  <tabTrigger>pre</tabTrigger>
+  <content><![CDATA[
+file: @$1@
+<pre><code class="${2:ruby}">
+${0}
+</code></pre>
+]]></content>
+</snippet>

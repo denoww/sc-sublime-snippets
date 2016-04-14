@@ -1,0 +1,17 @@
+<snippet>
+  <tabTrigger>scservice</tabTrigger>
+  <scope>source.ruby</scope>
+  <content><![CDATA[
+module ${1:Financeiro}
+  # No-docs
+  class ${2:Cobranca}sService
+    set acl:   ::${1:Financeiro}::PermissoesService,
+        model: ::${1:Financeiro}::${2:Cobranca}
+
+    $0
+  end
+end
+]]></content>
+<description> Service SeuCondominio</description>
+</snippet>
+

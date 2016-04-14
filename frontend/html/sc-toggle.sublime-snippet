@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<label>
+  <span class="sc-toggle">
+    <input type="checkbox" checked />
+    <span label-true="${1:sim}" label-false="${0:não}"></span>
+  </span>
+</label>
+]]></content>
+  <tabTrigger>sc-toggle</tabTrigger>
+  <scope>text.html</scope>
+  <description>sc-toggle</description>
+</snippet>

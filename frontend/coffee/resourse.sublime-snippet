@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+angular.module('appSC').lazy
+.factory '${1:Financeiro::Cobranca}', [
+  '\$resource'
+  (\$resource)->
+    encapsulateData = (data) ->
+      return JSON.stringify { '${2:cobranca}': data }
+
+    \$resource 'BASEURL/${3:financeiro}/${2:cobranca}s/:id.json', { id: '@id' },
+      list:
+        method: 'GET'
+      show:
+        method: 'GET'
+      create:
+        method: 'POST'
+        transformRequest: encapsulateData
+      update:
+        method: 'PUT'
+        transformRequest: encapsulateData
+      destroy:
+        method: 'DELETE'
+      logs:
+        method: 'GET'
+        url: 'BASEURL/${3:financeiro}/${2:cobranca}s/logs.json'
+]
+]]></content>
+  <tabTrigger>resource</tabTrigger>
+  <scope>source.coffee</scope>
+  <description> Resource SeuCondominio</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+# importar dependência 'scAlert'
+scAlert.open
+  title: '${1:Alerta}'
+  messages: '${2:Mensagem}'
+  buttons: [
+    label: '${3:OK}'
+    color: '${4:green}'
+  ]
+]]></content>
+  <tabTrigger>scalert</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>scAlert Uikit ()</description>
+</snippet>

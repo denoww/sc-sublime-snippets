@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+# importar dependência 'scTopMessages'
+scTopMessages.open${1:Danger} '${2:Mensagem}'${3:, {timeOut: 5000\}}
+]]></content>
+  <tabTrigger>sctopmessages</tabTrigger>
+  <scope>source.coffee</scope>
+  <description>scTopMessages Uikit</description>
+</snippet>

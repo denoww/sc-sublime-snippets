@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<button type="${1:button}" ng-click="${2}" class="sc-btn sc-btn-${3:blue}">
+  $0
+</button>
+]]></content>
+  <tabTrigger>sc-btn</tabTrigger>
+  <scope>text.html</scope>
+  <description>sc-btn</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+.factory '${1:FactoryName}', [
+  '${2:\$dependency}'
+  (${2:\$dependency})->
+    $0
+]
+]]></content>
+  <tabTrigger>factory</tabTrigger>
+  <scope>source.coffee</scope>
+  <description> Factory Angular</description>
+</snippet>

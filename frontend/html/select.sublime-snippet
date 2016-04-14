@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<select ng-model="${1}" ng-options="${2:item}.value as ${2:item}.label in ${0:items}" class="sc-input-default"></select>
+]]></content>
+  <tabTrigger>select</tabTrigger>
+  <scope>text.html</scope>
+  <description>Select Uikit</description>
+</snippet>

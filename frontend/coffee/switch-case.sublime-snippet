@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+switch ${1:var}
+  when ${2:1}
+    ${3:console.log 'um'}
+  when ${4:2}
+    ${5:console.log 'dois'}
+  else
+    ${0:console.log 'zero'}
+]]></content>
+  <tabTrigger>case</tabTrigger>
+  <scope>source.coffee</scope>
+  <description> Switch-Case Coffee</description>
+</snippet>
