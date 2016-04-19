@@ -11,5 +11,5 @@ scAlert.open
 ]]></content>
   <tabTrigger>scalert</tabTrigger>
   <scope>source.coffee</scope>
-  <description>scAlert Uikit ()</description>
+  <description> scAlert Uikit</description>
 </snippet>
