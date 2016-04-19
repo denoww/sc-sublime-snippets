@@ -1,9 +1,10 @@
 <snippet>
   <content><![CDATA[
 <label>
+  <div class="sc-label">${1:Assinante?}</div>
   <span class="sc-toggle">
-    <input type="checkbox" checked />
-    <span label-true="${1:sim}" label-false="${0:não}"></span>
+    <input type="checkbox" checked="">
+    <span label-true="${2:sim}" label-false="${0:não}"></span>
   </span>
 </label>
 ]]></content>
