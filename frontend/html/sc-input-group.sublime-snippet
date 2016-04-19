@@ -2,7 +2,7 @@
   <content><![CDATA[
 <div class="sc-input-group">
   <input type="text" class="sc-input-default">
-  <button class="sc-btn sc-btn-blue" type="button"><i class="sc-icon-${0:seta-5-baixo}"></i></button>
+  <button class="sc-btn sc-btn-${1:blue}" type="button"><i class="sc-icon-${0:seta-5-baixo}"></i></button>
 </div>
 ]]></content>
   <tabTrigger>sc-input-group</tabTrigger>
