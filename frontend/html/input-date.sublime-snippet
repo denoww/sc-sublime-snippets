@@ -2,7 +2,7 @@
   <content><![CDATA[
 <input ng-model="${1}" sc-date-input class="sc-input-default" />
 ]]></content>
-  <tabTrigger>inputdate</tabTrigger>
+  <tabTrigger>sc-date-input</tabTrigger>
   <scope>text.html</scope>
   <description>Input Date Uikit</description>
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
 <span sc-dropdown-menu class="sc-dropdown pull-left">
-  <button type="button" class="sc-btn sc-btn-blue" ng-click="menu.toggle()">${1:Menu}</button>
-  <ul class="sc-dropdown-menu ng-animation-slider" ng-show="menu.isOn">
+  <button ng-click="menu.toggle()" type="button" class="sc-btn sc-btn-blue">${1:Menu}</button>
+  <ul ng-show="menu.isOn" class="sc-dropdown-menu ng-animation-slider">
     <li><a href="">${0:Action}</a></li>
   </ul>
 </span>

@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 <label>
-  <input type="checkbox" ng-model="${1:checkbox}" class="sc-checkbox sc-checkbox-${2:blue}">
+  <input ng-model="${1:checked}" type="checkbox" class="sc-checkbox sc-checkbox-${2:blue}" />
   <span>${0:Label do checkbox}</span>
 </label>
 ]]></content>

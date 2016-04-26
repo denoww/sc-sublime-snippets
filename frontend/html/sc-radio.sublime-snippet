@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 <label>
-  <input type="radio" name="${1:nome-radio}" ng-value="${2:radio.value}" ng-model="${3:radio}" class="sc-radio sc-radio-${4:blue}">
+  <input ng-model="${1:radio}" ng-value="${2:radio.value}" name="${3:nome-radio}" type="radio" class="sc-radio sc-radio-${4:blue}" />
   <span>${0:Label do radio}</span>
 </label>
 ]]></content>

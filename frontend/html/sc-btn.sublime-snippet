@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<button type="${1:button}" ng-click="${2}" class="sc-btn sc-btn-${3:blue}">
+<button ng-click="${1}" type="${2:button}" class="sc-btn sc-btn-${3:blue}">
   $0
 </button>
 ]]></content>

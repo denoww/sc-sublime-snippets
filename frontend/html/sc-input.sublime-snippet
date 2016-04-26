@@ -2,7 +2,7 @@
   <content><![CDATA[
 <label>
   <div class="sc-label">${1:Label}</div>
-  <input ng-model="${2}" type="${3:text}" class="sc-input-default">
+  <input ng-model="${2}" type="${3:text}" class="sc-input-default" />
 </label>
 $0
 ]]></content>
