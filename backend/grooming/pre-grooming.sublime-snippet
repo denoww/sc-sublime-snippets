@@ -1,5 +1,5 @@
 <snippet>
-  <scope>source.ruby</scope> -->
+  <scope>source.ruby, text.html.textile</scope>
   <tabTrigger>pre</tabTrigger>
   <content><![CDATA[
 file: @$1@
