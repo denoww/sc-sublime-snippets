@@ -6,7 +6,10 @@ $ cd ~/.config/sublime-text-3/Packages/User
 
 $ git clone git@github.com:denoww/sc-sublime-snippets.git
 
+## Get Last Commit
 
+$ cd ~/.config/sublime-text-3/Packages/User/sc-sublime-snippets/
+$ git pull
 
 ## Snippets Inspirations
 
