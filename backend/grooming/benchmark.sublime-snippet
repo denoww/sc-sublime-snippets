@@ -1,0 +1,11 @@
+<snippet>
+  <scope>source.ruby</scope>
+  <tabTrigger>benchmark</tabTrigger>
+  <content><![CDATA[
+Benchmark.bm do |x|
+  x.report { ${1:for i in 1..5000; a = "1"; end} }
+  x.report { ${2:5000.times do   ; a = "1"; end} }
+  x.report { ${3:1.upto(5000) do ; a = "1"; end} }
+end
+]]></content>
+</snippet>
