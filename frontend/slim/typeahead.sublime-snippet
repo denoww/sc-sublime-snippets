@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+.sc-input-group
+  input.sc-input-default.sc-input-block { ng-model="${1:myModel}"
+    typeahead="${2:item} as ${2:item}.label for ${2:item} in ${3:items} | accentFilter:\$viewValue"
+    typeahead-combo="${4:true}"
+    typeahead-loading="${5:carregandoData}"
+    typeahead-editable="${6:true}"
+    typeahead-on-select="${7:funcao}()"
+    typeahead-on-backspace="${8:funcao}()"
+    placeholder="${9:Digite sua pesquisa}"
+    type="text" }
+  label
+    button.sc-btn.sc-btn-blue
+      i class="{{ ${5:carregandoData} ? 'sc-icon-carregando-1 sc-icon-spin' : 'sc-icon-lupa-2' }}"
+$0
+]]></content>
+  <tabTrigger>typeahead</tabTrigger>
+  <scope>text.slim</scope>
+  <description>Typeahead Uikit</description>
+</snippet>

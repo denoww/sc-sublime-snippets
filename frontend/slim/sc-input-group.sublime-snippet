@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+.sc-input-group
+  input.sc-input-default type="text"
+  button.sc-btn.sc-btn-${1:blue} type="button"
+    i.sc-icon-${2:seta-5-baixo}
+$0
+]]></content>
+  <tabTrigger>sc-input-group</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-input-group</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+button.sc-btn.sc-btn-${1:blue}
+  i.sc-icon-${2:impressora}
+  span ${3:Imprimir}
+$0
+]]></content>
+  <tabTrigger>sc-btni</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-btn-icon</description>
+</snippet>

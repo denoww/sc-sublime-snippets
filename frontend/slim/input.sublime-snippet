@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+input.sc-input-default ng-model="${1}" type="${2:text}"
+$0
+]]></content>
+  <tabTrigger>input</tabTrigger>
+  <scope>text.slim</scope>
+  <description>Input Uikit</description>
+</snippet>

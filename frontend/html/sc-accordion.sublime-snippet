@@ -4,7 +4,7 @@
   <li>
     <div ng-click="${1:acc}.opened = !${1:acc}.opened" class="sc-accordion-head sc-text-${2:blue}">
       <div class="sc-accordion-icon-col sc-divider">
-        <i class="sc-icon sc-icon-seta-11-direita sc-transition "></i>
+        <i class="sc-icon-seta-11-direita sc-transition "></i>
       </div>
       <div class="sc-accordion-elastic-col title">
         ${3:Default title}

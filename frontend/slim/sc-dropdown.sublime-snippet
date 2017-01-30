@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+span.sc-dropdown.pull-left sc-dropdown-menu=""
+  button.sc-btn.sc-btn-blue ng-click="menu.toggle()" type="button" ${1:Menu}
+  ul.sc-dropdown-menu.ng-animation-slider ng-show="menu.isOn"
+    li
+      a href="" ${2:Action}
+$0
+]]></content>
+  <tabTrigger>sc-dropdown</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-dropdown</description>
+</snippet>

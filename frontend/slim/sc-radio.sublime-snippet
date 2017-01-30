@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+label
+  input.sc-radio.sc-radio-${1:blue} ng-model="${2:radio}" ng-value="${3:radio.value}" name="${4:nome-radio}" type="radio"
+  span ${5:Label do radio}
+$0
+]]></content>
+  <tabTrigger>sc-radio</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-radio</description>
+</snippet>

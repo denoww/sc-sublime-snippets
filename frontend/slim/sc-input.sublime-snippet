@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+label
+  .sc-label ${1:Label}
+  input.sc-input-default ng-model="${2}" type="${3:text}"
+$0
+]]></content>
+  <tabTrigger>sc-input</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-input</description>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+.sc-modal-lg${1:.sc-modal-unfixed} sc-modal="${2:anyModal}"
+  .sc-modal-header
+    i.sc-modal-close.sc-cursor-pointer.sc-icon-fechar-1.sc-badge-hover-red ng-click="${1:anyModal}.close()"
+    ${3:| Título do Modal}
+
+  .sc-modal-body
+    ${0:| ...}
+
+  .sc-modal-footer
+    button.sc-btn.sc-btn-gray ng-click="${2:anyModal}.close()" Fechar
+]]></content>
+  <tabTrigger>sc-modal</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-modal</description>
+</snippet>

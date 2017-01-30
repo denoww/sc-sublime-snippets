@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+input.sc-input-default ng-model="${1}" sc-date-input=""
+$0
+]]></content>
+  <tabTrigger>sc-date-input</tabTrigger>
+  <scope>text.slim</scope>
+  <description>Input Date Uikit</description>
+</snippet>

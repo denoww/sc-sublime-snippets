@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+ul.sc-accordion
+  li
+    .sc-accordion-head.sc-text-${2:blue} ng-click="${1:acc}.opened = !${1:acc}.opened"
+      .sc-accordion-icon-col.sc-divider
+        i.sc-icon-seta-11-direita
+      .sc-accordion-elastic-col.title
+        | ${3:Default title}
+        span.description ${4:Default description}
+    .sc-accordion-body.ng-animation-slider ng-show="${1:acc}.opened"
+      ${0:| ...}
+]]></content>
+  <tabTrigger>sc-accordion</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-accordion</description>
+</snippet>

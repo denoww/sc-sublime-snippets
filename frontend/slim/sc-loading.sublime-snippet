@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+div${1:.force-center} sc-loading="" show-on="${2:carregando}" block-screen="${3:false}"
+$0
+]]></content>
+  <tabTrigger>sc-loading</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-loading</description>
+</snippet>

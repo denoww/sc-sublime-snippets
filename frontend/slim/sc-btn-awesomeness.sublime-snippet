@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+button.sc-btn.sc-btn-${1:blue}.sc-btn-awesomeness
+  .sc-btn-icon
+    i.sc-icon-${2:lapis}
+  .sc-btn-text ${3:Label}
+$0
+]]></content>
+  <tabTrigger>sc-btna</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-btn-awesomeness</description>
+</snippet>

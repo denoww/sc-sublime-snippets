@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+span.sc-tag.sc-tag-${1:blue}
+  span ${2:Texto}
+  i.sc-icon-fechar-1.sc-tag-remove
+$0
+]]></content>
+  <tabTrigger>sc-tag</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-tag</description>
+</snippet>

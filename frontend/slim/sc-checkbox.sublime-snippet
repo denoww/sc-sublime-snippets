@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+label
+  input.sc-checkbox.sc-checkbox-${1:blue} ng-model="${2:checked}" type="checkbox"
+  span ${3:Label do checkbox}
+$0
+]]></content>
+  <tabTrigger>sc-checkbox</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-checkbox</description>
+</snippet>
