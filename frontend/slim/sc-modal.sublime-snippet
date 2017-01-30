@@ -2,7 +2,7 @@
   <content><![CDATA[
 .sc-modal-lg${1:.sc-modal-unfixed} sc-modal="${2:anyModal}"
   .sc-modal-header
-    i.sc-modal-close.sc-cursor-pointer.sc-icon-fechar-1.sc-badge-hover-red ng-click="${1:anyModal}.close()"
+    i.sc-modal-close.sc-cursor-pointer.sc-icon-fechar-1.sc-badge-hover-red ng-click="${2:anyModal}.close()"
     ${3:| Título do Modal}
 
   .sc-modal-body
