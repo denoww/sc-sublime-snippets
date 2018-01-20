@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+fail ${1:variavel}.inspect
+]]></content>
+  <tabTrigger>fail</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>Debug Console Fail</description>
+</snippet>
