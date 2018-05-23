@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+button.sc-btn.sc-btn-green${1:.sc-m-l-md} ng-click="${2:formCtrl}.${3:salvar}(${4})" type="button"
+  span ng-hide="${2:formCtrl}.loading"
+    | {{ commonsLocale.labels.salvar }}
+  span ng-show="${2:formCtrl}.loading"
+    i.sc-icon.sc-icon-carregando-1.sc-icon-spin>
+    | {{ commonsLocale.labels.salvando }}
+$0
+]]></content>
+  <tabTrigger>sc-btn-salvar</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-btn-salvar</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+button.sc-btn.sc-btn-green${1:.sc-m-l-md} type="submit"
+  span ng-hide="${2:formCtrl}.loading"
+    | {{ commonsLocale.labels.salvar }}
+  span ng-show="${2:formCtrl}.loading"
+    i.sc-icon.sc-icon-carregando-1.sc-icon-spin>
+    | {{ commonsLocale.labels.salvando }}
+$0
+]]></content>
+  <tabTrigger>sc-btn-salvar-submit</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-btn-salvar-submit</description>
+</snippet>

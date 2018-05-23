@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+button.sc-btn.sc-btn-red${1:.sc-m-l-md} ng-click="${2:formCtrl}.${3:cancelar}(${4})" type="button"
+  | {{ commonsLocale.labels.cancelar }}
+$0
+]]></content>
+  <tabTrigger>sc-btn-cancelar</tabTrigger>
+  <scope>text.slim</scope>
+  <description>sc-btn-cancelar</description>
+</snippet>
