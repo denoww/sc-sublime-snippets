@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-button.sc-btn.sc-btn-green${1:.sc-m-l-md} type="submit"
+button.sc-btn.sc-btn-blue${1:.sc-m-l-md} type="submit"
   span ng-hide="${2:formCtrl}.loading"
     | {{ commonsLocale.labels.salvar }}
   span ng-show="${2:formCtrl}.loading"
