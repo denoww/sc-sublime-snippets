@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-puts " ${1:----------------} \n" * 2
+p_green " ${1:----------------} \n" * 2
 p_green ${0:params}
-puts " ${1:----------------} \n" * 2
+p_green " ${1:----------------} \n" * 2
 ]]></content>
   <tabTrigger>puts</tabTrigger>
   <scope>source.ruby</scope>
