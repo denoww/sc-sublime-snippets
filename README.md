@@ -2,7 +2,7 @@
 
 ## Installation 
 
-$ git -C $folder/Packages/User clone git@github.com:denoww/sc-sublime-snippets.git
+$ git -C ~/.config/sublime-text-3/Packages/User clone git@github.com:denoww/sc-sublime-snippets.git
 
 ## Get Last Commit
 
